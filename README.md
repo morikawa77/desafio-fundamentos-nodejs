@@ -78,7 +78,7 @@ This will be an application to store incoming and outgoing financial transaction
 
 - **`should be able to list the transactions`**: For this test to pass, your application must allow an object to be returned containing all transactions along with the balance of income, outcome and total transactions that have been created so far.
 
-- **`should not be able to create outcome transaction without a valid balance`**: For this test to pass, your application must not allow a transaction of the outcome type to exceed the total amount that the user has in the box, returning a response with HTTP 400 code and an error message in the following format: { error: string }
+- **`should not be able to create outcome transaction without a valid balance`**: For this test to pass, your application must not allow a transaction of the outcome type to exceed the total amount that the user has in the box, returning a response with HTTP 400 code and an error message in the following format: ````{ error: string }````
 
 ---
 
